@@ -5,6 +5,7 @@ import FeatImage02 from '../images/features-03-image-02.png';
 import FeatImage03 from '../images/features-03-image-03.png';
 import dechets from '../images/dechets.jpg';
 import solution from '../images/solution.jpg';
+import archi from '../images/archi.png';
 
 
 function FeaturesZigzag() {
@@ -99,37 +100,82 @@ function FeaturesZigzag() {
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="fade-up">
-                <img className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage03} width="540" height="405" alt="Features 03" />
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src={archi} width="540" height="405" alt="Features 03" />
               </div>
               {/* Content */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
                   <h3 className="h3 mb-3">Architecture de notre système</h3>
-                  <p className="text-xl text-gray-400 mb-4">test test 2</p>
+                  <p className="text-xl text-gray-400 mb-4">Pour notre architecture on a utilisé :</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-purple-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Capteur de Niveau ultrason HC-SR04</span>
                     </li>
                     <li className="flex items-center mb-2">
-                      <svg className="w-3 h-3 fill-current text-purple-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>NodeMCU ESP8266</span>
                     </li>
                     <li className="flex items-center">
-                      <svg className="w-3 h-3 fill-current text-purple-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Cable Usb - B</span>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
+
+
+
+            {/* 4th item */}
+            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
+              {/* Image */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
+                <img className="max-w-full mx-auto md:max-w-none h-auto" src={solution} width="540" height="405" alt="Features 02" />
+              </div>
+              {/* Content */}
+              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-left">
+                <div className="md:pl-4 lg:pl-12 xl:pl-16">
+                <div className="font-architects-daughter text-xl bg-gradient-to-r from-green-500 to-green-700 text-transparent bg-clip-text mb-2">Votre futur plus propre commence ici !</div>
+                  <h3 className="h3 mb-3">Futures utilisations</h3>
+                  <p className="text-xl text-gray-400 mb-4">La mise en place de ce système ouvre la porte à une multitude de possibilités pour améliorer notre environnement urbain et notre qualité de vie :</p>
+                  <ul className="text-lg text-gray-400 -mb-2">
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Optimisation de la Collecte des Déchets </span>
+                    </li>
+                    <li className="flex items-center mb-2">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Réduction des Émissions de CO2</span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Amélioration de l'Hygiène Publique</span>
+                    </li>
+                    <li className="flex items-center">
+                      <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
+                      </svg>
+                      <span>Contribuer à l'effort global de création de villes intelligentes</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
 
           </div>
 
